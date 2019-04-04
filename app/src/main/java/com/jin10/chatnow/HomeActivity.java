@@ -62,8 +62,8 @@ public class HomeActivity extends AppCompatActivity {
                 User user=dataSnapshot.getValue(User.class);
 //                Toast.makeText(HomeActivity.this,""+user.getUsername(),Toast.LENGTH_SHORT).show();
 
-                String str=dataSnapshot.getChildren().toString();
-                Toast.makeText(HomeActivity.this,""+str,Toast.LENGTH_SHORT).show();
+                //String str=dataSnapshot.getChildren().toString();
+               // Toast.makeText(HomeActivity.this,""+str,Toast.LENGTH_SHORT).show();
 
              //   Log.d("jinesh22",str);
 
