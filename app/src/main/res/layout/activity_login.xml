@@ -55,6 +55,7 @@
                     android:gravity="bottom|center"
                     android:layout_gravity="center"
                     android:padding="20dp"
+                    android:inputType="textEmailAddress"
                     android:hint="email"
 
                     />
@@ -83,6 +84,7 @@
                     android:layout_gravity="center"
                     android:padding="20dp"
                     android:hint="Password"
+                    android:inputType="textPassword"
 
                     />
 
